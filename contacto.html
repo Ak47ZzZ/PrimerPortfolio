@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Proyectos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+      <body>
+        <div class="enlaces">
+            <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="Proyectos.html">Proyectos</a></li>
+                    <li><a class="pagina_actual" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="cajaContacto">
+            <section class="Contact">
+                <h1>Contact</h1>
+                <form class="formulario" id="contactForm">
+                    <div class="campo">
+                    <label class="campo__label" for="nombre">Name</label>
+                    <input class="campo__field" type="text" placeholder="Your Name" id="nombre">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="email">Email</label>
+                    <input class="campo__field" type="email" placeholder="Your Email" id="email">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Message</label>
+                    <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                </div>
+        
+                <div class="campo">
+                    <input type="submit" value="Send Message" class="boton boton--primario">
+                </div>
+                </form>
+                <div id="errorBox" class="mensaje-error oculto">Error: Todos los campos son obligatorios.</div>
+                <div id="successBox" class="mensaje-validacion oculto">¡Envío exitoso!</div>
+            </section>
+        </section>
+        <script src="./JavaScript/menuAmburguesa.js"></script>
+        <script src="./JavaScript/contacto.js"></script>
+    </body> 
+</html>

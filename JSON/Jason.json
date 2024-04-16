@@ -1,0 +1,12 @@
+{
+  "imagenes": [
+    {
+      "img": "./img/Freelancer.png",
+      "enlace": "https://ak47zzz.github.io/Freelancer/"
+    },
+    {
+      "img": "./img/efectoMatrix.png",
+      "enlace": "https://ak47zzz.github.io/Efecto-Matrix-con-javascript/"
+    }
+  ]
+}
